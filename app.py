@@ -7,5 +7,7 @@ add_entry("Project initialized by B")
 delete_last_entry()
 add_entry("B: replaced deleted entry")
 
+print("Executed by A")
+
 for line in read_entries():
     print(line)
