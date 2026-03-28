@@ -8,6 +8,6 @@ delete_last_entry()
 add_entry("B: replaced deleted entry")
 
 print("Executed by A")
-
+print("Executed by B")
 for line in read_entries():
     print(line)
