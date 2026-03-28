@@ -9,5 +9,15 @@ add_entry("B: replaced deleted entry")
 
 print("Executed by A")
 print("Executed by B")
+
+add_entry("A iteration 1")
+add_entry("B iteration 1")
+
+add_entry("A iteration 2")
+add_entry("B iteration 2")
+
+add_entry("A iteration 3")
+add_entry("B iteration 3")
+
 for line in read_entries():
     print(line)
